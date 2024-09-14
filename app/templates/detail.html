@@ -1,0 +1,10 @@
+{% extends 'base.html %}
+
+
+{% block title %}{{ task["name"] }}{% endblock title %}
+
+{% block content %}
+<h1>{{ task["name"] }}</h1>
+<h3>{{ task["summary"] }}</h3>
+<p>{{ task["name"] }}</p>
+{% endblock content %}

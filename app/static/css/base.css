@@ -1,0 +1,10 @@
+h1 {
+    color: red;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 2px;
+    font-size: 18;
+}
